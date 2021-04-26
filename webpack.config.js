@@ -15,7 +15,8 @@ module.exports = {
                   {
                       loader: 'file-loader',
                       options: {
-                          name: 'resources/[contenthash].[ext]'
+                          context: 'src',
+                          name: '[path][contenthash].[ext]'
                       }
                   }
               ]

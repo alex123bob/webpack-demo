@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import testPng from '../resources/test.png';
+import testPng from './resources/test.png';
 
 function component() {
   const element = document.createElement('div');
