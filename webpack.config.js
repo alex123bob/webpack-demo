@@ -1,5 +1,6 @@
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const {FileListPlugin} = require('./plugins/FileList');
 
 
 module.exports = {
@@ -25,6 +26,7 @@ module.exports = {
       ]
   },
   plugins: [
-      new HTMLWebpackPlugin()
+      new HTMLWebpackPlugin(),
+      new FileListPlugin()
   ]
 };
